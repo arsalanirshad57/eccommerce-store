@@ -16,7 +16,7 @@ export const metadata = {
 const IntegralCF = LocalFont({
   src: [
     {
-      path: '../../public/assets/fonts/Fontspring-DEMO-integralcf-regular.otf',
+      path: '../../public/assets/fonts/integral-cf/Fontspring-DEMO-integralcf-regular.otf',
       weight: "400",
       style: 'normal'
     },
@@ -27,8 +27,28 @@ const IntegralCF = LocalFont({
 const stoshi = LocalFont({
   src: [
     {
-      path: '../../public/assets/fonts/Satoshi-Variable.ttf',
+      path: '../../public/assets/fonts/stoshi/Satoshi-Light.otf',
+      weight: "300",
+      style: 'normal'
+    },
+    {
+      path: '../../public/assets/fonts/stoshi/Satoshi-Regular.otf',
       weight: "400",
+      style: 'normal'
+    },
+    {
+      path: '../../public/assets/fonts/stoshi/Satoshi-Medium.otf',
+      weight: "500",
+      style: 'normal'
+    },
+    {
+      path: '../../public/assets/fonts/stoshi/Satoshi-Bold.otf',
+      weight: "800",
+      style: 'normal'
+    },
+    {
+      path: '../../public/assets/fonts/stoshi/Satoshi-Black.otf',
+      weight: "900",
       style: 'normal'
     },
   ],

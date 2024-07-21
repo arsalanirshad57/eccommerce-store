@@ -15,7 +15,8 @@ module.exports = {
         'gray-2': "#F0F0F0",
         'gray-3': '#F0EEED',
         'para': "rgb(0, 0, 0, 75%)",
-        'custom_black': "rgb(0, 0, 0, 10%)"
+        'custom_black': "rgb(0, 0, 0, 10%)",
+        'custom_black_2': "rgb(0, 0, 0, 40%)"
       },
       fontFamily: {
         'cf': ['var(--font-cf)', 'sens-serif'],

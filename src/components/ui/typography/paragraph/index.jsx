@@ -3,7 +3,7 @@ import React from 'react'
 
 const Paragraph = ({ className, children }) => {
     return (
-        <p className={cn('text-15fs sm:text-base text-para ', className)}>{children}</p>
+        <p className={cn('text-sm sm:text-base text-para ', className)}>{children}</p>
     )
 }
 
