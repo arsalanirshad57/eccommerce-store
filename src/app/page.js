@@ -6,10 +6,8 @@ import NewsLetter from "@/sections/news-letter";
 export default function Home() {
   return (
     <>
-      <NavBar />
       <HeroSection />
       <NewsLetter />
-      <Footer />
     </>
   );
 }

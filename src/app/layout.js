@@ -1,6 +1,8 @@
 import RtkProvider from "@/redux/redux-provider";
 import LocalFont from "next/font/local";
 import "./globals.css";
+import NavBar from "@/sections/nav-bar";
+import Footer from "@/sections/footer";
 
 export const metadata = {
   title: "SHOP.CO",
@@ -61,7 +63,11 @@ export default function RootLayout({ children }) {
     <html lang="en" className="scroll-smooth">
       <body className={` font-stoshi ${stoshi.variable} ${IntegralCF.variable}`}>
         <RtkProvider>
-          {children}
+          <NavBar />
+          <div className="pt-20">
+            {children}
+          </div>
+          <Footer />
         </RtkProvider>
       </body>
     </html>
